@@ -34,7 +34,7 @@ enum GuildRecipeType {
     var couldownCoefficient: Int {
         switch self {
         case .large: return 1
-        case .medium: return 3
+        case .medium: return 2
         case .small: return 7
         }
     }

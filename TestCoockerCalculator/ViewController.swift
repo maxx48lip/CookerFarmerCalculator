@@ -14,13 +14,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let allIngredients = calc.getAllGuildedIngredients()
-        let testStrings = allIngredients.map { element -> String in
-            return "\(element.name), count: \(element.count)"
-        }
-        testStrings.forEach {
-            print($0)
-        }
+        let allIngredientsSorted = calc.getAllBaseIngredientsSorted()
+        allIngredientsSorted.printAllIngredients()
+        
+        print(calc.getAllGuildXPForWeek())
     }
 }
 
