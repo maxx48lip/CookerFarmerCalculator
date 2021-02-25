@@ -54,6 +54,7 @@
 		B02F959825E7C2B8000C0889 /* SortedBaseIngredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F959725E7C2B8000C0889 /* SortedBaseIngredients.swift */; };
 		B02F959B25E7C694000C0889 /* Array+BaseIngredientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F959A25E7C694000C0889 /* Array+BaseIngredientProtocol.swift */; };
 		B02F95A725E7C7C0000C0889 /* BaseIngredientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F95A625E7C7C0000C0889 /* BaseIngredientProtocol.swift */; };
+		B02F95AC25E7FC87000C0889 /* Array+CraftIngredientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F95AB25E7FC87000C0889 /* Array+CraftIngredientProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +107,7 @@
 		B02F959725E7C2B8000C0889 /* SortedBaseIngredients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedBaseIngredients.swift; sourceTree = "<group>"; };
 		B02F959A25E7C694000C0889 /* Array+BaseIngredientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+BaseIngredientProtocol.swift"; sourceTree = "<group>"; };
 		B02F95A625E7C7C0000C0889 /* BaseIngredientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseIngredientProtocol.swift; sourceTree = "<group>"; };
+		B02F95AB25E7FC87000C0889 /* Array+CraftIngredientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+CraftIngredientProtocol.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -314,6 +316,7 @@
 			isa = PBXGroup;
 			children = (
 				B02F959A25E7C694000C0889 /* Array+BaseIngredientProtocol.swift */,
+				B02F95AB25E7FC87000C0889 /* Array+CraftIngredientProtocol.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -403,6 +406,7 @@
 				B02F953825E69F40000C0889 /* FarmerT8.swift in Sources */,
 				B02F955625E69FBA000C0889 /* CookerIngT7.swift in Sources */,
 				B02F955925E69FC8000C0889 /* CookerIngT8.swift in Sources */,
+				B02F95AC25E7FC87000C0889 /* Array+CraftIngredientProtocol.swift in Sources */,
 				B02F956525E69FF5000C0889 /* CookerIngT12.swift in Sources */,
 				B02F953B25E69F57000C0889 /* FarmerT9.swift in Sources */,
 				B02F95A725E7C7C0000C0889 /* BaseIngredientProtocol.swift in Sources */,

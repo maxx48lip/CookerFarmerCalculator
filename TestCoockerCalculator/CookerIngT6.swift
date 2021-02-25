@@ -12,7 +12,7 @@ struct CookerIngT6 {
         var count: Int = 1
         let name: String = "Jar Of Mint Sauce"
         let sellingPrice: Decimal = 0.86
-        let xpGain: Int = 0
+        let xpGain: Int = 4
         let tierLevel: TierLevel = .supreme
         let ingredients: [BaseIngredientProtocol] = [
             FarmerT6.BundlesOfMintLeaves(count: 2),
@@ -25,7 +25,7 @@ struct CookerIngT6 {
         var count: Int = 1
         let name: String = "Bowl Of Mashed Royal Taters"
         let sellingPrice: Decimal = 1.16
-        let xpGain: Int = 0
+        let xpGain: Int = 4
         let tierLevel: TierLevel = .supreme
         let ingredients: [BaseIngredientProtocol] = [
             FarmerT6.RoyalTater(count: 2),
@@ -38,7 +38,7 @@ struct CookerIngT6 {
         var count: Int = 1
         let name: String = "Ball Of Dough"
         let sellingPrice: Decimal = 1.16
-        let xpGain: Int = 0
+        let xpGain: Int = 4
         let tierLevel: TierLevel = .supreme
         let ingredients: [BaseIngredientProtocol] = [
             CookerIngT4.CupOfWinterBarleyFlour(count: 2),
@@ -50,7 +50,7 @@ struct CookerIngT6 {
         var count: Int = 1
         let name: String = "Jar Of Blackberry Jam"
         let sellingPrice: Decimal = 1.16
-        let xpGain: Int = 0
+        let xpGain: Int = 4
         let tierLevel: TierLevel = .supreme
         let ingredients: [BaseIngredientProtocol] = [
             FarmerT5.BunchesOfBlackberries(count: 2),

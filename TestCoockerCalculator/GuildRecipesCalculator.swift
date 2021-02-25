@@ -73,6 +73,30 @@ final class GuildRecipesCalculator {
         }
         return result.removeDuplicates().sorted(by: { $0.count > $1.count })
     }
+
+    func getAllCraftIngredientsUsedToCraftGuildCurrencies() -> [CraftIngredientProtocol] {
+        let allGuildedIngredients = getAllGuildedIngredients()
+        var temproraryArrayToCalculate: [BaseIngredientProtocol] = allGuildedIngredients
+        var result: [BaseIngredientProtocol] = allGuildedIngredients
+        while temproraryArrayToCalculate.isContainCraftableElement() {
+            for element in result {
+                if let element = element as? CraftIngredientProtocol {
+                    if let index = temproraryArrayToCalculate.firstIndex(where: { $0.isEqualTo(element) }) {
+                        temproraryArrayToCalculate.remove(at: index)
+                        for _ in 0..<element.count {
+                            temproraryArrayToCalculate.append(contentsOf: element.ingredients)
+                            result.append(contentsOf: element.ingredients)
+                        }
+                    }
+                }
+            }
+        }
+
+        return (result.filter({ $0 is CraftIngredientProtocol }))
+            .removeDuplicates()
+            .sorted(by: { $0.count > $1.count })
+            as? [CraftIngredientProtocol] ?? []
+    }
     
     func getAllBaseIngredientsSorted() -> SortedBaseIngredients {
         return SortedBaseIngredients(from: getAllBaseIngredients())

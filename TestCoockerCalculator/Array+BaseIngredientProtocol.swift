@@ -36,8 +36,19 @@ extension Array where Element == BaseIngredientProtocol {
 
     func printAllIngredients() {
         self.forEach {
-            let stringToPrint = "\($0.name), count: \($0.count)"
+            let stringToPrint: String
+            if let tierableElement = $0 as? CraftIngredientProtocol {
+                stringToPrint = "(T\(tierableElement.tierLevel.rawValue)) \($0.name), count: \($0.count * 6), xp: \(tierableElement.xpGain * $0.count * 6)"
+            } else if let tierableElement = $0 as? FarmerIngredientProtocol {
+                stringToPrint = "(T\(tierableElement.tierLevel.rawValue)) \($0.name), count: \($0.count * 6)"
+            } else {
+                stringToPrint = "\($0.name), count: \($0.count * 6)"
+            }
             print(stringToPrint)
         }
+    }
+
+    func sorted() -> SortedBaseIngredients {
+        return SortedBaseIngredients(from: self)
     }
 }

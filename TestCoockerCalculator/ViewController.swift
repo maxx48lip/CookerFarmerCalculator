@@ -14,10 +14,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let allIngredientsSorted = calc.getAllBaseIngredientsSorted()
+        //let allIngredientsSorted = calc.getAllGuildIngredientsSorted()
+        //let allIngredientsSorted = calc.getAllBaseIngredientsSorted()
+        let allIngredientsSorted = calc.getAllCraftIngredientsUsedToCraftGuildCurrencies().sorted()
         allIngredientsSorted.printAllIngredients()
-        
-        print(calc.getAllGuildXPForWeek())
     }
 }
 

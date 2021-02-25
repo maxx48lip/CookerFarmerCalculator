@@ -13,7 +13,7 @@ struct CookerIngT3 {
 
         let name: String = "Cut Of Marinated Beef"
         let sellingPrice: Decimal = 0.0
-        let xpGain: Int = 0
+        let xpGain: Int = 6
         let tierLevel: TierLevel = .expert
         let ingredients: [BaseIngredientProtocol] = [
             FarmerT3.GreenOnion(),

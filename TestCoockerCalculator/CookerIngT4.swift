@@ -13,7 +13,7 @@ struct CookerIngT4 {
 
         let name: String = "Apple Pie Filling"
         let sellingPrice: Decimal = 0.58
-        let xpGain: Int = 0
+        let xpGain: Int = 4
         let tierLevel: TierLevel = .artisan
         let ingredients: [BaseIngredientProtocol] = [
             FarmerT4.ShireApple(count: 2),
@@ -26,7 +26,7 @@ struct CookerIngT4 {
 
         let name: String = "Marinated Chicken Cutlet"
         let sellingPrice: Decimal = 0.12
-        let xpGain: Int = 0
+        let xpGain: Int = 4
         let tierLevel: TierLevel = .artisan
         let ingredients: [BaseIngredientProtocol] = [
             FarmerT3.GreenOnion(),
@@ -39,7 +39,7 @@ struct CookerIngT4 {
 
         let name: String = "Cup Of Winter Barley Flour"
         let sellingPrice: Decimal = 0.58
-        let xpGain: Int = 0
+        let xpGain: Int = 4
         let tierLevel: TierLevel = .artisan
         let ingredients: [BaseIngredientProtocol] = [
             FarmerT4.BundleOfWinterBarley(count: 2)

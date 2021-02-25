@@ -11,7 +11,7 @@ struct CookerIngT2 {
     struct SpiciedPotatoes: CraftIngredientProtocol {
         let name: String = "Spicied Potatoes"
         let tierLevel: TierLevel = .jouneyman
-        let xpGain: Int = 0
+        let xpGain: Int = 4
         let sellingPrice: Decimal = 0.15
         var count: Int = 1
         let ingredients: [BaseIngredientProtocol] = [

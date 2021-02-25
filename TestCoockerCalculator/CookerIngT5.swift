@@ -13,7 +13,7 @@ struct CookerIngT5 {
 
         let name: String = "Blackberry Pie Filling"
         let sellingPrice: Decimal = 0.86
-        let xpGain: Int = 0
+        let xpGain: Int = 8
         let tierLevel: TierLevel = .master
         let ingredients: [BaseIngredientProtocol] = [
             FarmerT5.BunchesOfBlackberries(count: 2),
@@ -26,7 +26,7 @@ struct CookerIngT5 {
 
         let name: String = "Cup of Tasty Frosting"
         let sellingPrice: Decimal = 0.86
-        let xpGain: Int = 0
+        let xpGain: Int = 4
         let tierLevel: TierLevel = .master
         let ingredients: [BaseIngredientProtocol] = [
             CookerIngT4.CupOfWinterBarleyFlour(count: 2),

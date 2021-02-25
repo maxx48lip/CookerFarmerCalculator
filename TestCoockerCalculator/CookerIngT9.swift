@@ -12,7 +12,7 @@ struct CookerIngT9 {
         var count: Int = 1
         let name: String = "Venison Sausage"
         let sellingPrice: Decimal = 2.31
-        let xpGain: Int = 0
+        let xpGain: Int = 2
         let tierLevel: TierLevel = .westemnet
         let ingredients: [BaseIngredientProtocol] = [
             VendorIngredients.HaunchOfVenison(),
@@ -26,7 +26,7 @@ struct CookerIngT9 {
         var count: Int = 1
         let name: String = "Bowl Of Vegetable Stock"
         let sellingPrice: Decimal = 2.31
-        let xpGain: Int = 0
+        let xpGain: Int = 2
         let tierLevel: TierLevel = .westemnet
         let ingredients: [BaseIngredientProtocol] = [
             FarmerT9.BunchOfKingsteadMushrooms(),
@@ -40,7 +40,7 @@ struct CookerIngT9 {
         var count: Int = 1
         let name: String = "Cup Of Baked Beans"
         let sellingPrice: Decimal = 2.31
-        let xpGain: Int = 0
+        let xpGain: Int = 2
         let tierLevel: TierLevel = .westemnet
         let ingredients: [BaseIngredientProtocol] = [
             FarmerT9.BunchOfBeans(),
@@ -54,7 +54,7 @@ struct CookerIngT9 {
         var count: Int = 1
         let name: String = "BowlOfPoachedPears"
         let sellingPrice: Decimal = 2.31
-        let xpGain: Int = 0
+        let xpGain: Int = 2
         let tierLevel: TierLevel = .westemnet
         let ingredients: [BaseIngredientProtocol] = [
             FarmerT9.BunchOfPears(),
@@ -68,7 +68,7 @@ struct CookerIngT9 {
         var count: Int = 1
         let name: String = "Jar Of Pear Preserves"
         let sellingPrice: Decimal = 2.31
-        let xpGain: Int = 0
+        let xpGain: Int = 2
         let tierLevel: TierLevel = .westemnet
         let ingredients: [BaseIngredientProtocol] = [
             CookerIngT9.BowlOfPoachedPears(),

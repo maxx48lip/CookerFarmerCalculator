@@ -82,6 +82,12 @@ enum TierLevel: Int, CaseIterable {
     }
 }
 
+extension TierLevel: Comparable {
+    static func < (lhs: TierLevel, rhs: TierLevel) -> Bool {
+        lhs.rawValue < rhs.rawValue
+    }
+}
+
 protocol CraftableTierLevel {
     func allUsefullIngredients() -> [CraftIngredientProtocol]
 }

@@ -13,9 +13,14 @@ struct SortedBaseIngredients {
     let craftableIngredients: [BaseIngredientProtocol]
 
     init(from nonSortedIngredients: [BaseIngredientProtocol]) {
-        self.farmerIngredients = nonSortedIngredients.filter({ $0 is FarmerIngredientProtocol })
+        let farmerIngredients = nonSortedIngredients.filter({ $0 is FarmerIngredientProtocol })
+            as? [FarmerIngredientProtocol] ?? []
+        let craftableIngredients = nonSortedIngredients.filter({ $0 is CraftIngredientProtocol })
+            as? [CraftIngredientProtocol] ?? []
+        
         self.vendorIngredients = nonSortedIngredients.filter({ $0 is VendorIngredientProtocol })
-        self.craftableIngredients = nonSortedIngredients.filter({ $0 is CraftIngredientProtocol })
+        self.farmerIngredients = farmerIngredients.sorted(by: { $0.tierLevel < $1.tierLevel })
+        self.craftableIngredients = craftableIngredients.sorted(by: { $0.tierLevel < $1.tierLevel })
     }
 
     func printAllIngredients() {

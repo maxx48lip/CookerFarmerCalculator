@@ -12,7 +12,7 @@ struct CookerIngT7 {
         var count: Int = 1
         let name: String = "Bowl Of Leek Stock"
         let sellingPrice: Decimal = 1.65
-        let xpGain: Int = 0
+        let xpGain: Int = 4
         let tierLevel: TierLevel = .westfold
         let ingredients: [BaseIngredientProtocol] = [
             FarmerT7.BunchesOfLeeks(count: 2),
@@ -25,7 +25,7 @@ struct CookerIngT7 {
         var count: Int = 1
         let name: String = "Cup Of Black Barley Flour"
         let sellingPrice: Decimal = 1.65
-        let xpGain: Int = 0
+        let xpGain: Int = 2
         let tierLevel: TierLevel = .westfold
         let ingredients: [BaseIngredientProtocol] = [
             FarmerT7.BundlesOfBlackBarley(count: 2)
@@ -36,7 +36,7 @@ struct CookerIngT7 {
         var count: Int = 1
         let name: String = "Loaf Of Barley Bread"
         let sellingPrice: Decimal = 1.65
-        let xpGain: Int = 0
+        let xpGain: Int = 4
         let tierLevel: TierLevel = .westfold
         let ingredients: [BaseIngredientProtocol] = [
             CookerIngT7.CupOfBlackBarleyFlour(count: 2),
@@ -49,7 +49,7 @@ struct CookerIngT7 {
         var count: Int = 1
         let name: String = "Cup of Bread-crumbs"
         let sellingPrice: Decimal = 1.65
-        let xpGain: Int = 0
+        let xpGain: Int = 2
         let tierLevel: TierLevel = .westfold
         let ingredients: [BaseIngredientProtocol] = [
             CookerIngT7.LoafOfBarleyBread()
@@ -60,7 +60,7 @@ struct CookerIngT7 {
         var count: Int = 1
         let name: String = "Cup Of Oatmeal"
         let sellingPrice: Decimal = 1.65
-        let xpGain: Int = 0
+        let xpGain: Int = 2
         let tierLevel: TierLevel = .westfold
         let ingredients: [BaseIngredientProtocol] = [
             FarmerT7.BundlesOfBlackBarley(count: 2)
