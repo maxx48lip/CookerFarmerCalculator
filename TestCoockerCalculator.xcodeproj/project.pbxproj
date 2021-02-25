@@ -14,6 +14,43 @@
 		B00831DA25E68F5F00FC2A34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00831D925E68F5F00FC2A34 /* Assets.xcassets */; };
 		B00831DD25E68F5F00FC2A34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00831DB25E68F5F00FC2A34 /* LaunchScreen.storyboard */; };
 		B00831E625E68FD600FC2A34 /* IngredientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00831E525E68FD600FC2A34 /* IngredientProtocol.swift */; };
+		B02F951C25E69C4E000C0889 /* FarmerT2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F951B25E69C4E000C0889 /* FarmerT2.swift */; };
+		B02F952025E69E03000C0889 /* CookerIngT2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F951F25E69E03000C0889 /* CookerIngT2.swift */; };
+		B02F952325E69EBE000C0889 /* FarmerT1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F952225E69EBE000C0889 /* FarmerT1.swift */; };
+		B02F952625E69EE8000C0889 /* CookIngT1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F952525E69EE8000C0889 /* CookIngT1.swift */; };
+		B02F952925E69EFA000C0889 /* FarmerT3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F952825E69EFA000C0889 /* FarmerT3.swift */; };
+		B02F952C25E69F13000C0889 /* FarmerT4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F952B25E69F13000C0889 /* FarmerT4.swift */; };
+		B02F952F25E69F1C000C0889 /* FarmerT5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F952E25E69F1C000C0889 /* FarmerT5.swift */; };
+		B02F953225E69F25000C0889 /* FarmerT6.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F953125E69F25000C0889 /* FarmerT6.swift */; };
+		B02F953525E69F2F000C0889 /* FarmerT7.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F953425E69F2F000C0889 /* FarmerT7.swift */; };
+		B02F953825E69F40000C0889 /* FarmerT8.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F953725E69F40000C0889 /* FarmerT8.swift */; };
+		B02F953B25E69F57000C0889 /* FarmerT9.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F953A25E69F57000C0889 /* FarmerT9.swift */; };
+		B02F953E25E69F63000C0889 /* FarmerT10.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F953D25E69F63000C0889 /* FarmerT10.swift */; };
+		B02F954125E69F6D000C0889 /* FarmerT11.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F954025E69F6D000C0889 /* FarmerT11.swift */; };
+		B02F954425E69F77000C0889 /* FarmerT12.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F954325E69F77000C0889 /* FarmerT12.swift */; };
+		B02F954725E69F80000C0889 /* FarmerT13.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F954625E69F80000C0889 /* FarmerT13.swift */; };
+		B02F954A25E69F91000C0889 /* CookerIngT3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F954925E69F91000C0889 /* CookerIngT3.swift */; };
+		B02F954D25E69F9A000C0889 /* CookerIngT4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F954C25E69F9A000C0889 /* CookerIngT4.swift */; };
+		B02F955025E69FA7000C0889 /* CookerIngT5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F954F25E69FA7000C0889 /* CookerIngT5.swift */; };
+		B02F955325E69FB0000C0889 /* CookerIngT6.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F955225E69FB0000C0889 /* CookerIngT6.swift */; };
+		B02F955625E69FBA000C0889 /* CookerIngT7.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F955525E69FBA000C0889 /* CookerIngT7.swift */; };
+		B02F955925E69FC8000C0889 /* CookerIngT8.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F955825E69FC8000C0889 /* CookerIngT8.swift */; };
+		B02F955C25E69FD1000C0889 /* CookerIngT9.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F955B25E69FD1000C0889 /* CookerIngT9.swift */; };
+		B02F955F25E69FDE000C0889 /* CookerIngT10.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F955E25E69FDE000C0889 /* CookerIngT10.swift */; };
+		B02F956225E69FEA000C0889 /* CookerIngT11.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F956125E69FEA000C0889 /* CookerIngT11.swift */; };
+		B02F956525E69FF5000C0889 /* CookerIngT12.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F956425E69FF5000C0889 /* CookerIngT12.swift */; };
+		B02F956825E6A000000C0889 /* CookerIngT13.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F956725E6A000000C0889 /* CookerIngT13.swift */; };
+		B02F956F25E6A11A000C0889 /* GuildRecipesT3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F956E25E6A11A000C0889 /* GuildRecipesT3.swift */; };
+		B02F957225E6A48A000C0889 /* VendorIngredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F957125E6A48A000C0889 /* VendorIngredients.swift */; };
+		B02F957725E6E4B1000C0889 /* GuildRecipesT4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F957625E6E4B1000C0889 /* GuildRecipesT4.swift */; };
+		B02F957A25E6E4C5000C0889 /* GuildRecipesT5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F957925E6E4C5000C0889 /* GuildRecipesT5.swift */; };
+		B02F957D25E6E4D3000C0889 /* GuildRecipesT6.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F957C25E6E4D3000C0889 /* GuildRecipesT6.swift */; };
+		B02F958025E6E4E0000C0889 /* GuildRecipesT7.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F957F25E6E4E0000C0889 /* GuildRecipesT7.swift */; };
+		B02F958325E6E4EF000C0889 /* GuildRecipesT8.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F958225E6E4EF000C0889 /* GuildRecipesT8.swift */; };
+		B02F958625E6E4FE000C0889 /* GuildRecipesT9.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F958525E6E4FE000C0889 /* GuildRecipesT9.swift */; };
+		B02F958925E6E65D000C0889 /* GuildRecipesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F958825E6E65D000C0889 /* GuildRecipesProtocol.swift */; };
+		B02F958C25E6E6E8000C0889 /* TierLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F958B25E6E6E8000C0889 /* TierLevel.swift */; };
+		B02F959125E728AE000C0889 /* GuildRecipesCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F959025E728AE000C0889 /* GuildRecipesCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +63,43 @@
 		B00831DC25E68F5F00FC2A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B00831DE25E68F5F00FC2A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B00831E525E68FD600FC2A34 /* IngredientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientProtocol.swift; sourceTree = "<group>"; };
+		B02F951B25E69C4E000C0889 /* FarmerT2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerT2.swift; sourceTree = "<group>"; };
+		B02F951F25E69E03000C0889 /* CookerIngT2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookerIngT2.swift; sourceTree = "<group>"; };
+		B02F952225E69EBE000C0889 /* FarmerT1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerT1.swift; sourceTree = "<group>"; };
+		B02F952525E69EE8000C0889 /* CookIngT1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookIngT1.swift; sourceTree = "<group>"; };
+		B02F952825E69EFA000C0889 /* FarmerT3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerT3.swift; sourceTree = "<group>"; };
+		B02F952B25E69F13000C0889 /* FarmerT4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerT4.swift; sourceTree = "<group>"; };
+		B02F952E25E69F1C000C0889 /* FarmerT5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerT5.swift; sourceTree = "<group>"; };
+		B02F953125E69F25000C0889 /* FarmerT6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerT6.swift; sourceTree = "<group>"; };
+		B02F953425E69F2F000C0889 /* FarmerT7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerT7.swift; sourceTree = "<group>"; };
+		B02F953725E69F40000C0889 /* FarmerT8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerT8.swift; sourceTree = "<group>"; };
+		B02F953A25E69F57000C0889 /* FarmerT9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerT9.swift; sourceTree = "<group>"; };
+		B02F953D25E69F63000C0889 /* FarmerT10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerT10.swift; sourceTree = "<group>"; };
+		B02F954025E69F6D000C0889 /* FarmerT11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerT11.swift; sourceTree = "<group>"; };
+		B02F954325E69F77000C0889 /* FarmerT12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerT12.swift; sourceTree = "<group>"; };
+		B02F954625E69F80000C0889 /* FarmerT13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerT13.swift; sourceTree = "<group>"; };
+		B02F954925E69F91000C0889 /* CookerIngT3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookerIngT3.swift; sourceTree = "<group>"; };
+		B02F954C25E69F9A000C0889 /* CookerIngT4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookerIngT4.swift; sourceTree = "<group>"; };
+		B02F954F25E69FA7000C0889 /* CookerIngT5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookerIngT5.swift; sourceTree = "<group>"; };
+		B02F955225E69FB0000C0889 /* CookerIngT6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookerIngT6.swift; sourceTree = "<group>"; };
+		B02F955525E69FBA000C0889 /* CookerIngT7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookerIngT7.swift; sourceTree = "<group>"; };
+		B02F955825E69FC8000C0889 /* CookerIngT8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookerIngT8.swift; sourceTree = "<group>"; };
+		B02F955B25E69FD1000C0889 /* CookerIngT9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookerIngT9.swift; sourceTree = "<group>"; };
+		B02F955E25E69FDE000C0889 /* CookerIngT10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookerIngT10.swift; sourceTree = "<group>"; };
+		B02F956125E69FEA000C0889 /* CookerIngT11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookerIngT11.swift; sourceTree = "<group>"; };
+		B02F956425E69FF5000C0889 /* CookerIngT12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookerIngT12.swift; sourceTree = "<group>"; };
+		B02F956725E6A000000C0889 /* CookerIngT13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookerIngT13.swift; sourceTree = "<group>"; };
+		B02F956E25E6A11A000C0889 /* GuildRecipesT3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuildRecipesT3.swift; sourceTree = "<group>"; };
+		B02F957125E6A48A000C0889 /* VendorIngredients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendorIngredients.swift; sourceTree = "<group>"; };
+		B02F957625E6E4B1000C0889 /* GuildRecipesT4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuildRecipesT4.swift; sourceTree = "<group>"; };
+		B02F957925E6E4C5000C0889 /* GuildRecipesT5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuildRecipesT5.swift; sourceTree = "<group>"; };
+		B02F957C25E6E4D3000C0889 /* GuildRecipesT6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuildRecipesT6.swift; sourceTree = "<group>"; };
+		B02F957F25E6E4E0000C0889 /* GuildRecipesT7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuildRecipesT7.swift; sourceTree = "<group>"; };
+		B02F958225E6E4EF000C0889 /* GuildRecipesT8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuildRecipesT8.swift; sourceTree = "<group>"; };
+		B02F958525E6E4FE000C0889 /* GuildRecipesT9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuildRecipesT9.swift; sourceTree = "<group>"; };
+		B02F958825E6E65D000C0889 /* GuildRecipesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuildRecipesProtocol.swift; sourceTree = "<group>"; };
+		B02F958B25E6E6E8000C0889 /* TierLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TierLevel.swift; sourceTree = "<group>"; };
+		B02F959025E728AE000C0889 /* GuildRecipesCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuildRecipesCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +135,6 @@
 				B00831D025E68F5E00FC2A34 /* AppDelegate.swift */,
 				B00831D225E68F5E00FC2A34 /* SceneDelegate.swift */,
 				B00831D425E68F5E00FC2A34 /* ViewController.swift */,
-				B00831E525E68FD600FC2A34 /* IngredientProtocol.swift */,
 				B00831E925E693FD00FC2A34 /* Ingredients */,
 				B00831D625E68F5E00FC2A34 /* Main.storyboard */,
 				B00831D925E68F5F00FC2A34 /* Assets.xcassets */,
@@ -74,56 +147,150 @@
 		B00831E925E693FD00FC2A34 /* Ingredients */ = {
 			isa = PBXGroup;
 			children = (
-				B00831EA25E6940B00FC2A34 /* T1 */,
-				B00831EB25E6941A00FC2A34 /* T2 */,
-				B00831EC25E6953200FC2A34 /* T3 */,
-				B00831ED25E6954900FC2A34 /* T4 */,
-				B00831EE25E6955800FC2A34 /* T5 */,
-				B00831EF25E6956F00FC2A34 /* T6 */,
+				B00831E525E68FD600FC2A34 /* IngredientProtocol.swift */,
+				B02F958B25E6E6E8000C0889 /* TierLevel.swift */,
+				B02F958825E6E65D000C0889 /* GuildRecipesProtocol.swift */,
+				B02F957125E6A48A000C0889 /* VendorIngredients.swift */,
+				B02F959025E728AE000C0889 /* GuildRecipesCalculator.swift */,
+				B00831EA25E6940B00FC2A34 /* T1 - Apprentice */,
+				B00831EB25E6941A00FC2A34 /* T2 - Jouneyman */,
+				B00831EC25E6953200FC2A34 /* T3 - Expert */,
+				B00831ED25E6954900FC2A34 /* T4 - Artisan */,
+				B00831EE25E6955800FC2A34 /* T5 - Master */,
+				B00831EF25E6956F00FC2A34 /* T6 - Supreme */,
+				B02F950F25E69A37000C0889 /* T7 - Westfold */,
+				B02F951025E69A71000C0889 /* T8 - Eastemnet */,
+				B02F951125E69A80000C0889 /* T9 - Westemnet */,
+				B02F951225E69A92000C0889 /* T10 - Anorien */,
+				B02F951325E69ABA000C0889 /* T11 - Doomfold */,
+				B02F951425E69ACE000C0889 /* T12 - Ironfold */,
+				B02F951525E69AD9000C0889 /* T13 - Minas Ithil */,
 			);
 			name = Ingredients;
 			sourceTree = "<group>";
 		};
-		B00831EA25E6940B00FC2A34 /* T1 */ = {
+		B00831EA25E6940B00FC2A34 /* T1 - Apprentice */ = {
 			isa = PBXGroup;
 			children = (
+				B02F952225E69EBE000C0889 /* FarmerT1.swift */,
+				B02F952525E69EE8000C0889 /* CookIngT1.swift */,
 			);
-			name = T1;
+			name = "T1 - Apprentice";
 			sourceTree = "<group>";
 		};
-		B00831EB25E6941A00FC2A34 /* T2 */ = {
+		B00831EB25E6941A00FC2A34 /* T2 - Jouneyman */ = {
 			isa = PBXGroup;
 			children = (
+				B02F951B25E69C4E000C0889 /* FarmerT2.swift */,
+				B02F951F25E69E03000C0889 /* CookerIngT2.swift */,
 			);
-			name = T2;
+			name = "T2 - Jouneyman";
 			sourceTree = "<group>";
 		};
-		B00831EC25E6953200FC2A34 /* T3 */ = {
+		B00831EC25E6953200FC2A34 /* T3 - Expert */ = {
 			isa = PBXGroup;
 			children = (
+				B02F952825E69EFA000C0889 /* FarmerT3.swift */,
+				B02F954925E69F91000C0889 /* CookerIngT3.swift */,
+				B02F956E25E6A11A000C0889 /* GuildRecipesT3.swift */,
 			);
-			name = T3;
+			name = "T3 - Expert";
 			sourceTree = "<group>";
 		};
-		B00831ED25E6954900FC2A34 /* T4 */ = {
+		B00831ED25E6954900FC2A34 /* T4 - Artisan */ = {
 			isa = PBXGroup;
 			children = (
+				B02F952B25E69F13000C0889 /* FarmerT4.swift */,
+				B02F954C25E69F9A000C0889 /* CookerIngT4.swift */,
+				B02F957625E6E4B1000C0889 /* GuildRecipesT4.swift */,
 			);
-			name = T4;
+			name = "T4 - Artisan";
 			sourceTree = "<group>";
 		};
-		B00831EE25E6955800FC2A34 /* T5 */ = {
+		B00831EE25E6955800FC2A34 /* T5 - Master */ = {
 			isa = PBXGroup;
 			children = (
+				B02F952E25E69F1C000C0889 /* FarmerT5.swift */,
+				B02F954F25E69FA7000C0889 /* CookerIngT5.swift */,
+				B02F957925E6E4C5000C0889 /* GuildRecipesT5.swift */,
 			);
-			name = T5;
+			name = "T5 - Master";
 			sourceTree = "<group>";
 		};
-		B00831EF25E6956F00FC2A34 /* T6 */ = {
+		B00831EF25E6956F00FC2A34 /* T6 - Supreme */ = {
 			isa = PBXGroup;
 			children = (
+				B02F953125E69F25000C0889 /* FarmerT6.swift */,
+				B02F955225E69FB0000C0889 /* CookerIngT6.swift */,
+				B02F957C25E6E4D3000C0889 /* GuildRecipesT6.swift */,
 			);
-			name = T6;
+			name = "T6 - Supreme";
+			sourceTree = "<group>";
+		};
+		B02F950F25E69A37000C0889 /* T7 - Westfold */ = {
+			isa = PBXGroup;
+			children = (
+				B02F953425E69F2F000C0889 /* FarmerT7.swift */,
+				B02F955525E69FBA000C0889 /* CookerIngT7.swift */,
+				B02F957F25E6E4E0000C0889 /* GuildRecipesT7.swift */,
+			);
+			name = "T7 - Westfold";
+			sourceTree = "<group>";
+		};
+		B02F951025E69A71000C0889 /* T8 - Eastemnet */ = {
+			isa = PBXGroup;
+			children = (
+				B02F953725E69F40000C0889 /* FarmerT8.swift */,
+				B02F955825E69FC8000C0889 /* CookerIngT8.swift */,
+				B02F958225E6E4EF000C0889 /* GuildRecipesT8.swift */,
+			);
+			name = "T8 - Eastemnet";
+			sourceTree = "<group>";
+		};
+		B02F951125E69A80000C0889 /* T9 - Westemnet */ = {
+			isa = PBXGroup;
+			children = (
+				B02F953A25E69F57000C0889 /* FarmerT9.swift */,
+				B02F955B25E69FD1000C0889 /* CookerIngT9.swift */,
+				B02F958525E6E4FE000C0889 /* GuildRecipesT9.swift */,
+			);
+			name = "T9 - Westemnet";
+			sourceTree = "<group>";
+		};
+		B02F951225E69A92000C0889 /* T10 - Anorien */ = {
+			isa = PBXGroup;
+			children = (
+				B02F953D25E69F63000C0889 /* FarmerT10.swift */,
+				B02F955E25E69FDE000C0889 /* CookerIngT10.swift */,
+			);
+			name = "T10 - Anorien";
+			sourceTree = "<group>";
+		};
+		B02F951325E69ABA000C0889 /* T11 - Doomfold */ = {
+			isa = PBXGroup;
+			children = (
+				B02F954025E69F6D000C0889 /* FarmerT11.swift */,
+				B02F956125E69FEA000C0889 /* CookerIngT11.swift */,
+			);
+			name = "T11 - Doomfold";
+			sourceTree = "<group>";
+		};
+		B02F951425E69ACE000C0889 /* T12 - Ironfold */ = {
+			isa = PBXGroup;
+			children = (
+				B02F954325E69F77000C0889 /* FarmerT12.swift */,
+				B02F956425E69FF5000C0889 /* CookerIngT12.swift */,
+			);
+			name = "T12 - Ironfold";
+			sourceTree = "<group>";
+		};
+		B02F951525E69AD9000C0889 /* T13 - Minas Ithil */ = {
+			isa = PBXGroup;
+			children = (
+				B02F954625E69F80000C0889 /* FarmerT13.swift */,
+				B02F956725E6A000000C0889 /* CookerIngT13.swift */,
+			);
+			name = "T13 - Minas Ithil";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,10 +363,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B02F952C25E69F13000C0889 /* FarmerT4.swift in Sources */,
 				B00831D525E68F5E00FC2A34 /* ViewController.swift in Sources */,
+				B02F955F25E69FDE000C0889 /* CookerIngT10.swift in Sources */,
+				B02F954425E69F77000C0889 /* FarmerT12.swift in Sources */,
+				B02F958625E6E4FE000C0889 /* GuildRecipesT9.swift in Sources */,
+				B02F954125E69F6D000C0889 /* FarmerT11.swift in Sources */,
+				B02F955C25E69FD1000C0889 /* CookerIngT9.swift in Sources */,
+				B02F957A25E6E4C5000C0889 /* GuildRecipesT5.swift in Sources */,
+				B02F954A25E69F91000C0889 /* CookerIngT3.swift in Sources */,
+				B02F958325E6E4EF000C0889 /* GuildRecipesT8.swift in Sources */,
+				B02F952625E69EE8000C0889 /* CookIngT1.swift in Sources */,
+				B02F951C25E69C4E000C0889 /* FarmerT2.swift in Sources */,
+				B02F953825E69F40000C0889 /* FarmerT8.swift in Sources */,
+				B02F955625E69FBA000C0889 /* CookerIngT7.swift in Sources */,
+				B02F955925E69FC8000C0889 /* CookerIngT8.swift in Sources */,
+				B02F956525E69FF5000C0889 /* CookerIngT12.swift in Sources */,
+				B02F953B25E69F57000C0889 /* FarmerT9.swift in Sources */,
 				B00831D125E68F5E00FC2A34 /* AppDelegate.swift in Sources */,
 				B00831E625E68FD600FC2A34 /* IngredientProtocol.swift in Sources */,
+				B02F955325E69FB0000C0889 /* CookerIngT6.swift in Sources */,
+				B02F954D25E69F9A000C0889 /* CookerIngT4.swift in Sources */,
+				B02F952925E69EFA000C0889 /* FarmerT3.swift in Sources */,
+				B02F952F25E69F1C000C0889 /* FarmerT5.swift in Sources */,
+				B02F953225E69F25000C0889 /* FarmerT6.swift in Sources */,
+				B02F957725E6E4B1000C0889 /* GuildRecipesT4.swift in Sources */,
+				B02F957D25E6E4D3000C0889 /* GuildRecipesT6.swift in Sources */,
+				B02F957225E6A48A000C0889 /* VendorIngredients.swift in Sources */,
+				B02F956225E69FEA000C0889 /* CookerIngT11.swift in Sources */,
+				B02F958025E6E4E0000C0889 /* GuildRecipesT7.swift in Sources */,
+				B02F959125E728AE000C0889 /* GuildRecipesCalculator.swift in Sources */,
+				B02F956F25E6A11A000C0889 /* GuildRecipesT3.swift in Sources */,
+				B02F958C25E6E6E8000C0889 /* TierLevel.swift in Sources */,
+				B02F952325E69EBE000C0889 /* FarmerT1.swift in Sources */,
+				B02F953E25E69F63000C0889 /* FarmerT10.swift in Sources */,
+				B02F953525E69F2F000C0889 /* FarmerT7.swift in Sources */,
+				B02F958925E6E65D000C0889 /* GuildRecipesProtocol.swift in Sources */,
 				B00831D325E68F5E00FC2A34 /* SceneDelegate.swift in Sources */,
+				B02F956825E6A000000C0889 /* CookerIngT13.swift in Sources */,
+				B02F952025E69E03000C0889 /* CookerIngT2.swift in Sources */,
+				B02F955025E69FA7000C0889 /* CookerIngT5.swift in Sources */,
+				B02F954725E69F80000C0889 /* FarmerT13.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

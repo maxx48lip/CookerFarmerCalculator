@@ -7,23 +7,13 @@
 
 import Foundation
 
-enum TierLevel: Int {
-    case apprentice = 1
-    case jouneyman = 2
-    case expert = 3
-    case artisan = 4
-    case master = 5
-    case supreme = 6
-    case westfold = 7
-    case eastemnet = 8
-    case westemnet = 9
-    case anorien = 10
-    case doomfold = 11
-    case ironfold = 12
-    case minasIthil = 13
+protocol CraftIngredientProtocol: BaseIngredientProtocol {
+    var xpGain: Int { get }
+    var tierLevel: TierLevel { get }
+    var ingredients: [BaseIngredientProtocol] { get }
 }
 
-protocol CraftIngredientProtocol: BaseIngredientProtocol {
+protocol FarmerIngredientProtocol: BaseIngredientProtocol {
     var xpGain: Int { get }
     var tierLevel: TierLevel { get }
 }
@@ -38,4 +28,16 @@ protocol BaseIngredientProtocol {
     var name: String { get }
     /// Цена продажи
     var sellingPrice: Decimal { get }
+    /// Количество
+    var count: Int { get set }
+
+    init(count: Int)
+    init()
+}
+
+extension BaseIngredientProtocol {
+    init(count: Int) {
+        self.init()
+        self.count = count
+    }
 }
